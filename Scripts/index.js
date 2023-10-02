@@ -1,3 +1,8 @@
+/*
+* Autor: Ignacio Carmona González 
+* GitHub: https://github.com/IgnacioCG28/Calculadora.git
+*/
+
 document.addEventListener("DOMContentLoaded", () => {
   const display = document.getElementById("display");
   const Sdisplay = document.getElementById("second-display");
@@ -64,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
           display.value = display.value.replace("-", "");
         }
       } else {
-        display.value += element.id;
+          display.value += element.id;
       }
     };
   });
